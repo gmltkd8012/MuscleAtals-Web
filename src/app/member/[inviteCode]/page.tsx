@@ -145,7 +145,7 @@ export default function MemberDetailPage() {
     <div className="min-h-screen bg-gray-900 text-white">
       {/* 헤더 */}
       <header className="bg-gray-800 py-4 px-6">
-        <h1 className="text-xl font-semibold">회원 운동 현황</h1>
+        <h1 className="text-xl font-semibold">{member?.name} 님</h1>
       </header>
 
       <main className="max-w-2xl mx-auto p-6">
